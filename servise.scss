@@ -1,0 +1,89 @@
+.service {
+   
+   
+}
+
+.headin {
+   font-size: 40px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #474040;
+   margin-bottom: 5rem;
+   position: relative;
+   top: 65rem;
+   left: 20rem;
+   
+}
+
+
+
+.service .service_container {
+   width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 1.8rem;
+   top: 65rem;
+   left: 20rem;
+}
+
+.service .service_container .service_box {
+   flex: 1 1 200px;
+   text-align: center;
+   padding: 20px;
+   background-color: #38395c;
+   border-radius: 10px;
+   transition: .4s ease;
+   border: transparent solid 3px;
+}
+
+.service .service_container .service_box:hover {
+   transform: scale(1.1);
+   border: #0ef solid 3px;
+}
+
+.service .service_container .service_box i {
+   font-size: 35px;
+   color: #0ef;
+   text-shadow: 0 0 10px #0ef;
+}
+
+.service .service_container .service_box h3 {
+   font-size: 25px;
+   color: #fff;
+   text-transform: capitalize;
+   font-weight: 700;
+   margin: 10px 0;
+   position: relative;
+   left: auto;
+   top: auto;
+}
+
+.service .service_container .service_box p {
+   color: #eee;
+   font-size: 17px;
+   font-style: italic;
+   margin-bottom: 15px;
+}
+
+.service .service_container .service_box .btn {
+   display: inline-block;
+   padding: 8px 30px;
+   font-size: 22px;
+   text-transform: capitalize;
+   color: #23244a;
+   background-color: #0ef;
+   border-radius: 20px;
+   font-weight: 500;
+   transition: .3s ease;
+}
+
+.service .service_container .service_box .btn:hover {
+   box-shadow: 0 0 10px #0ef;
+}
+
+.product {
+   background-color: #38395c;
+}

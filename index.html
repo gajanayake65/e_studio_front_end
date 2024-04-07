@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link   rel="stylesheet" 
+                
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+                integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+                crossorigin="anonymous" 
+                referrerpolicy="no-referrer" 
+                />
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <title>Main</title>
+
+        
+    </head>
+    <body>
+        text
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#">e-Studio</a></div>
+                <ul class="links">
+                    <li><a href="hero">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <a href="#" class="action_btn">Get Started</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu ">
+                <li><a href="hero">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#" class="action_btn">Get Started</a></li>
+            </div>
+        </header>
+        <br><br><br><br><br><br>
+        
+            
+                <h1>   Value For Your</h1>
+                <h2>   Creativity From</h2>
+                
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                      e-Studio
+                    </text>
+                  </svg> 
+                
+        <div >
+            <a href="#" class="main_btn">Upload Photos</a>
+            <!-- <a href="#" class="main_btn_2">Get Started</a></div> -->
+            <br><br><br><br><br><br>
+            
+            <section class="service">
+                <h1 class="headin">our service</h1>
+                
+                <br><br><br><br>
+                <div class="service_container">
+                   <div class="service_box">
+                    <i class="fa-solid fa-camera-retro"></i>
+                      <h3>AI Ganerator</h3>
+                      <p>Are your ready to feel capture
+                        your AI pic,So upload your photos
+                       
+                      </p>
+                      <a href="#" class="btn">Upload</a>
+                   </div>
+                   <div class="service_box">
+                    <i class="fa-solid fa-print"></i>
+                      <h3>Derect Printer</h3>
+                      <p>If your need Print Your own Photo
+                        you can click me and make your memory.</p>
+                      <a href="#" class="btn">Direct Print</a>
+                   </div>
+                   <div class="service_box">
+                        <i class="fa-solid fa-image"></i>
+                      <h3>Gallery</h3>
+                      <p>
+                        Watch our Gallery and make a 
+                        order from us.Capture your memory from us
+                      </p>
+                      <a href="#" class="btn">Gallery</a>
+                   </div>
+                   
+          
+                </div>
+             </section>
+             
+        <section class="para">
+            <div class="topic">
+                
+            <h1 class="topic">AI Ganerator</h1>
+            <img src="20230607PHT95601_original.jpg" alt="AI vs Human" width="600" height="400">
+            <p class="detail_1"> AI Generator revolutionizes the way we obtain quality photos by<br>
+                leveraging the power of artificial intelligence. With AI Generator, users can <br>
+                effortlessly upload six photos, and within moments, the AI algorithm meticulously<br>
+                synthesizes them to create a single, high-quality image. This innovative technology<br>
+                ensures that customers receive the best version of their desired photo, w   hether <br>
+                it's for passports, professional profiles, or personal use. Gone are the days of<br>
+                tedious photo editing or retakes; AI Generator streamlines the process, saving time <br>
+                and effort. Furthermore, customers have the flexibility to tailor their requirements,<br>
+                ensuring their satisfaction with the final result. Once satisfied, customers can<br> 
+                easily purchase and download their customized photo. AI Generator redefines <br>
+                convenience and efficiency in obtaining quality photos, catering to the diverse<br>
+                needs of modern consumers.</p>
+            <h1  class="topic_2">Derect Printer</h1>
+            <p class="detail_2">Welcome to our online photo printing service! With our innovative <br>
+                'Direct Print' option, getting your favorite photos printed has never been easier.<br>
+                 Simply upload the photo you love, and we'll take care of the rest. Our expert team <br>
+                 will select the best printing options for your image, ensuring superb quality and <br>
+                 vivid colors. All you have to do is submit your order, and we'll handle the rest, <br>
+                 delivering professional-grade prints right to your doorstep. Say goodbye to the <br>
+                 hassle of choosing print settings - with 'Direct Print,' leave it to the experts<br>
+                and enjoy stunning results every time. Try it now and experience the convenience<br>
+                of effortless photo printing!</p>
+            
+            </div>
+        </section>
+               
+            
+             
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropdownMenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function() {
+                dropdownMenu.classList.toggle('open')
+                const isOpen = dropdownMenu.classList.contains('open')
+                toggleBtnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+            }
+        </script>
+        
+            <p class="cp-text">
+                © Copyright 2024 PIX Lab. All rights reserved.
+            </p>
+    </body>
+</html>

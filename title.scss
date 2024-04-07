@@ -1,0 +1,63 @@
+h1 {
+    font-size: 10.0rem;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    color: #6a6868;
+    font-family: Fraunces;
+}
+
+h2 {
+    font-size: 8rem;
+    color: #6a6868;
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    text-align: center;
+    font-family: Fraunces;
+    
+    
+}
+
+h3 {
+    font-size: 6.0rem;
+    left: 15.0rem;
+    color: #fff;
+    position: relative;
+    top: 4.5rem;
+    font-family: Fraunces;
+}
+
+
+
+
+
+svg {
+    font-family: Fraunces;
+    position: absolute; 
+    width: 100%; height: 100%;
+    top: 10%;
+  }
+  svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #365fa0;
+    font-size: 10rem;
+    position: absolute;
+    width: 100%;
+    top: 10%;
+  }
+  @keyframes stroke {
+    0%   {
+      fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    }
+    70%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); }
+    80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+    100% {
+      fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }

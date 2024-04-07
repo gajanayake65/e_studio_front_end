@@ -1,0 +1,112 @@
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+@import './nav.scss';
+@import './discrition.scss';
+@import './ul.scss';
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+
+}
+body {
+    height: 100vh;
+    width: 150vh;
+    background:  #fcf9f9;
+      
+    }
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6a6868;
+    font-size: 2rem;
+}
+
+a:hover { 
+    color: #3c4b79;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+@import './title.scss';
+
+
+
+
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+        display: none;
+    }
+
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+         display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+
+
+
+@import './main_btn.scss';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Jost', sans-serif;
+   text-decoration: none;
+   scroll-behavior: smooth;
+
+}
+
+body {
+   height: 100vh;
+}
+
+section {
+   padding: 5% 5% 8%;
+}
+
+@import './servise.scss';
+@import './topic.scss';
+
+.cp-text {
+     color: rgb(255, 255, 255);
+     text-shadow: 0 .1rem rgba(255, 255, 255, 0.974);
+     text-align: center;
+     position: relative;
+     left: 28.0rem;
+    }

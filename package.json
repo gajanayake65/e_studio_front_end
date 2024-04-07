@@ -1,0 +1,14 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert-css": "node-sass ./main.scss ./style.css -w"
+  },
+  "author": "sahan gajanayake",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "description": ""
+}
